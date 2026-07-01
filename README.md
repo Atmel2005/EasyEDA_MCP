@@ -231,7 +231,6 @@ The plugin provides full "God-mode" access to the entire internal API of EasyEDA
 ### 🛠️ Установка (Antigravity / Claude Desktop ↔ EasyEDA Pro)
 
 - Распакуйте `easyeda_plugin.zip` и загрузите папку как распакованное браузерное расширение.
-  - **Важно:** При установке в EasyEDA Pro папка с расширением должна называться `atm-mcp` (в соответствии с именем в `extension.json`).
 - Добавьте конфигурацию MCP-сервера в ваш ИИ-клиент (например, Antigravity или Claude Desktop):
 
 ```json
