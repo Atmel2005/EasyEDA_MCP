@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv/
+.idea/
+.vscode/
+*.log
+
+# Ignore raw plugin files, only keep the zip
+easyeda_plugin/*
+!easyeda_plugin/easyeda_plugin.zip
+
+# Ignore temporary dev scripts
+merge_apis.py
+info.txt
+*.7z
+*.mp4
+full_api_dump.json
