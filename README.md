@@ -1,5 +1,7 @@
 # 🚀 EasyEDA Pro AI Automation Plugin & MCP Server
 
+https://github.com/Atmel2005/EasyEDA_MCP/raw/main/install.mp4
+
 <!-- markdownlint-disable MD024 -->
 
 ## Deutsch
