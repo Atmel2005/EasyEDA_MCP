@@ -14,6 +14,7 @@ venv/
 # Ignore raw plugin files, only keep the zip
 easyeda_plugin/*
 !easyeda_plugin/easyeda_plugin.zip
+!easyeda_plugin/easyeda_plugin.eext
 
 # Ignore temporary dev scripts
 merge_apis.py
