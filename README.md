@@ -41,7 +41,7 @@ Das Plugin bietet vollständigen "God-Mode"-Zugriff auf die gesamte interne API 
 ### 🔌 Verbindung
 
 - MCP Server Port: `stdio`
-- WebSocket Bridge Port: `8765`
+- WebSocket Bridge Port: `8787`
 - Ziel-URL: `https://pro.easyeda.com/editor`
 
 ### 🎮 Nutzung
@@ -54,7 +54,7 @@ Das Plugin bietet vollständigen "God-Mode"-Zugriff auf die gesamte interne API 
 **Serielle Ausgabe (Beispiel):**
 
 ```text
-[INFO] Starting EasyEDA WebSocket Server on ws://localhost:8765
+[INFO] Starting EasyEDA WebSocket Server on ws://localhost:8787
 [INFO] ATM_MCP WebSocket connected
 [INFO] ATM_MCP event: execute-js
 ```
@@ -109,7 +109,7 @@ Das Plugin bietet vollständigen "God-Mode"-Zugriff auf die gesamte interne API 
 ### 🔌 З'єднання
 
 - MCP Server Port: `stdio`
-- WebSocket Bridge Port: `8765`
+- WebSocket Bridge Port: `8787`
 - Цільова URL: `https://pro.easyeda.com/editor`
 
 ### 🎮 Як користуватися
@@ -122,7 +122,7 @@ Das Plugin bietet vollständigen "God-Mode"-Zugriff auf die gesamte interne API 
 **Приклад виводу в консоль:**
 
 ```text
-[INFO] Starting EasyEDA WebSocket Server on ws://localhost:8765
+[INFO] Starting EasyEDA WebSocket Server on ws://localhost:8787
 [INFO] ATM_MCP WebSocket connected
 [INFO] ATM_MCP event: execute-js
 ```
@@ -177,7 +177,7 @@ The plugin provides full "God-mode" access to the entire internal API of EasyEDA
 ### 🔌 Connection
 
 - MCP Server Port: `stdio`
-- WebSocket Bridge Port: `8765`
+- WebSocket Bridge Port: `8787`
 - Target URL: `https://pro.easyeda.com/editor`
 
 ### 🎮 How to use
@@ -190,7 +190,7 @@ The plugin provides full "God-mode" access to the entire internal API of EasyEDA
 **Server output (example):**
 
 ```text
-[INFO] Starting EasyEDA WebSocket Server on ws://localhost:8765
+[INFO] Starting EasyEDA WebSocket Server on ws://localhost:8787
 [INFO] ATM_MCP WebSocket connected
 [INFO] ATM_MCP event: execute-js
 ```
@@ -231,6 +231,7 @@ The plugin provides full "God-mode" access to the entire internal API of EasyEDA
 ### 🛠️ Установка (Antigravity / Claude Desktop ↔ EasyEDA Pro)
 
 - Распакуйте `easyeda_plugin.zip` и загрузите папку как распакованное браузерное расширение.
+  - **Важно:** При установке в EasyEDA Pro папка с расширением должна называться `atm-mcp` (в соответствии с именем в `extension.json`).
 - Добавьте конфигурацию MCP-сервера в ваш ИИ-клиент (например, Antigravity или Claude Desktop):
 
 ```json
@@ -245,8 +246,10 @@ The plugin provides full "God-mode" access to the entire internal API of EasyEDA
 ### 🔌 Подключение
 
 - MCP Server Port: `stdio`
-- WebSocket Bridge Port: `8765`
+- WebSocket Bridge Port: `8787`
 - Целевой URL: `https://pro.easyeda.com/editor`
+
+**Автоподключение:** Плагин сам сканирует порт, отдельно нажимать «Connect» не нужно. При успешном подключении в EasyEDA появится всплывающее уведомление (toast): `ATM_MCP connected`.
 
 ### 🎮 Как пользоваться
 
@@ -258,7 +261,7 @@ The plugin provides full "God-mode" access to the entire internal API of EasyEDA
 **Пример вывода сервера:**
 
 ```text
-[INFO] Starting EasyEDA WebSocket Server on ws://localhost:8765
+[INFO] Starting EasyEDA WebSocket Server on ws://localhost:8787
 [INFO] ATM_MCP WebSocket connected
 [INFO] ATM_MCP event: execute-js
 ```
