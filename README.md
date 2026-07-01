@@ -26,7 +26,7 @@ Das Plugin bietet vollständigen "God-Mode"-Zugriff auf die gesamte interne API 
 
 ### 🛠️ Installation (Antigravity / Claude Desktop ↔ EasyEDA Pro)
 
-- Entpacken Sie `easyeda_plugin.zip` und laden Sie den Ordner als entpackte Browser-Erweiterung.
+- Laden Sie die Datei `easyeda_plugin.eext` (oder `.zip`) über den Extension Manager in EasyEDA Pro.
 - Fügen Sie die MCP-Server-Konfiguration zu Ihrem KI-Client (z. B. Antigravity oder Claude Desktop) hinzu:
 
 ```json
@@ -94,7 +94,7 @@ Das Plugin bietet vollständigen "God-Mode"-Zugriff auf die gesamte interne API 
 
 ### 🛠️ Встановлення (Antigravity / Claude Desktop ↔ EasyEDA Pro)
 
-- Розпакуйте `easyeda_plugin.zip` та завантажте папку як розпаковане розширення для браузера.
+- Завантажте файл `easyeda_plugin.eext` (або `.zip`) через менеджер розширень в EasyEDA Pro.
 - Додайте конфігурацію MCP-сервера до вашого клієнта ШІ (наприклад, Antigravity або Claude Desktop):
 
 ```json
@@ -162,7 +162,7 @@ The plugin provides full "God-mode" access to the entire internal API of EasyEDA
 
 ### 🛠️ Installation (Antigravity / Claude Desktop ↔ EasyEDA Pro)
 
-- Extract `easyeda_plugin.zip` and load the folder as an unpacked browser extension.
+- Load the `easyeda_plugin.eext` (or `.zip`) file via the Extension Manager in EasyEDA Pro.
 - Add the MCP server configuration to your AI client (e.g. Antigravity or Claude Desktop):
 
 ```json
@@ -230,7 +230,7 @@ The plugin provides full "God-mode" access to the entire internal API of EasyEDA
 
 ### 🛠️ Установка (Antigravity / Claude Desktop ↔ EasyEDA Pro)
 
-- Распакуйте `easyeda_plugin.zip` и загрузите папку как распакованное браузерное расширение.
+- Загрузите файл `easyeda_plugin.eext` (или `.zip`) через менеджер расширений в EasyEDA Pro.
 - Добавьте конфигурацию MCP-сервера в ваш ИИ-клиент (например, Antigravity или Claude Desktop):
 
 ```json
